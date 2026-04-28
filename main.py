@@ -5,7 +5,7 @@ from vector import retriever
 model = OllamaLLM(model="deepseek-r1:7b")
 
 template = """
-You are an exeprt in answering questions about a pizza restaurant
+You are an expert in answering questions about a pizza restaurant
 
 Here are some relevant reviews: {reviews}
 
